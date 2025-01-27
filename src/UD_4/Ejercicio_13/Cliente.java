@@ -6,7 +6,7 @@ import java.util.Scanner;
 
 public class Cliente {
     public static void main(String[] args) {
-        String direccionServidor = "localhost";
+        String direccionServidor = "192.168.30.17";
         int puerto = 11223;
 
         try (Socket socket = new Socket(direccionServidor, puerto);
